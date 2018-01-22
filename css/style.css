@@ -56,6 +56,13 @@ p {
 	color: #6c5f62;
 }
 
+a {
+	-webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
 a:link {
 	color: #478ab3;
 	text-decoration: none;
