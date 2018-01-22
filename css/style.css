@@ -76,6 +76,10 @@ a:hover {
 	border-color: #cacaca;
 	border-width: 5px;
 	border-style: solid;
+	-webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 
 .press-link-image:hover {
