@@ -22,9 +22,14 @@ body {
 }
 
 /* Write all remaining styles here */
-h1 {
-	font: bold 5em Baskerville, serif;
+#home-link {
+	font: bold 2.5em 'Baskerville', serif;
 	color: #a0aea9;
+}
+
+#home-link:hover {
+	color: #757f7b;
+	text-decoration: none;
 }
 
 /* hr {
@@ -47,6 +52,13 @@ p {
 	color: #6c5f62;
 }
 
+a {
+	-webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
 a:link {
 	color: #478ab3;
 	text-decoration: none;
@@ -60,6 +72,10 @@ a:hover {
 	border-color: #cacaca;
 	border-width: 5px;
 	border-style: solid;
+	-webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 
 .press-link-image:hover {
