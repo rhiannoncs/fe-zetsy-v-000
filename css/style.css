@@ -25,6 +25,10 @@ body {
 #home-link {
 	font: bold 2.5em 'Baskerville', serif;
 	color: #a0aea9;
+	-webkit-transition: color 500ms ease-out 1s;
+  -moz-transition: color 500ms ease-out 1s;
+  -o-transition: color 500ms ease-out 1s;
+  transition: color 500ms ease-out 1s;
 }
 
 #home-link:hover {
