@@ -22,12 +22,12 @@ body {
 }
 
 /* Write all remaining styles here */
-.home-link {
+#home-link {
 	font: bold 5em Baskerville, serif;
 	color: #a0aea9;
 }
 
-.home-link:hover {
+#home-link:hover {
 	color: #757f7b;
 	text-decoration: none;
 }
