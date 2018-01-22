@@ -27,6 +27,10 @@ h1 {
 	color: #a0aea9;
 }
 
+h1:hover {
+	color: #757f7b;
+}
+
 /* hr {
 	border-color: #d8d8d8;
 	background-color: #d8d8d8;
