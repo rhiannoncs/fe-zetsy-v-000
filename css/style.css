@@ -29,6 +29,7 @@ h1 {
 
 .home-link:hover {
 	color: #757f7b;
+	text-decoration: none;
 }
 
 /* hr {
